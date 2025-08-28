@@ -1,0 +1,239 @@
+.monaco-workbench
+	.part.editor
+	> .content
+	.editor-group-container
+	> .title
+	.editor-actions {
+	display: none !important;
+}
+
+.tab.selected.tab-border-bottom > .tab-border-bottom-container {
+	display: none !important;
+}
+
+.monaco-workbench
+	.part.editor
+	> .content
+	.editor-group-container
+	> .title
+	.tabs-container
+	> .tab.selected.tab-border-bottom
+	> .tab.selected.tab-border-top
+	> .tab-border-bottom-container
+	> .tab-border-top-container {
+	display: none !important;
+}
+
+.tabs-and-actions-container {
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
+
+.editor-group-container .title {
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
+
+.part.editor * {
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
+
+.monaco-list-row.focused .monaco-tl-row {
+	background-color: #4f5971 !important;
+}
+
+.monaco-list-row:hover .monaco-tl-row {
+	background-color: #64c8ff33 !important;
+}
+
+.composite.title {
+	flex-direction: row !important;
+	align-items: center !important;
+	border-bottom: 1px solid #506588 !important;
+}
+
+.composite.title h2 {
+	font-weight: bold !important;
+	font-size: 11px !important;
+	color: #bc9abce3 !important;
+}
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+	font-size: 14px !important;
+	color: #fff !important;
+}
+
+.decorationsOverviewRuler {
+	display: none !important;
+}
+
+.codicon-toolbar-more,
+.codicon-word-wrap {
+	display: block !important;
+}
+
+.monaco-editor-hover,
+.monaco-hover {
+	z-index: 100;
+	border: solid 1px #506588 !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.45) !important;
+}
+
+.monaco-tokenized-source {
+	margin-bottom: 10px !important;
+}
+
+.suggest-widget {
+	z-index: 100;
+	border: solid 1px #506588 !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.45) !important;
+	padding: 8px !important;
+}
+
+.suggest-widget .monaco-list-row.focused {
+	background: #323947 !important;
+}
+
+.suggest-details {
+	z-index: 100;
+	border: solid 1px #506588 !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.45) !important;
+	padding: 8px !important;
+}
+
+.editor-widget {
+	z-index: 100;
+	border: solid 1px #506588 !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.45) !important;
+	padding: 8px !important;
+}
+
+.quick-input-widget {
+	transform: translateY(-50%) !important;
+	top: 50% !important;
+	z-index: 100;
+	border: solid 1px #506588 !important;
+	border-radius: 6px !important;
+	box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
+	padding: 6px !important;
+}
+
+.quick-input-widget .monaco-inputbox {
+	border: solid 2px #506588 !important;
+	padding: 5px !important;
+	border-radius: 3px !important;
+}
+
+.monaco-inputbox input::placeholder {
+	color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.editor-widget.find-widget.visible {
+	height: fit-content !important;
+	align-content: center !important;
+	border: solid 1px #506588 !important;
+	border-radius: 3px !important;
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.45) !important;
+	padding: 8px !important;
+}
+
+.find-part {
+	margin-right: 25px !important;
+}
+
+.button.codicon.codicon-widget-close {
+	margin-top: auto !important;
+	margin-bottom: auto !important;
+	top: 12px !important;
+}
+
+.monaco-sash.vertical {
+	background-color: transparent !important;
+	border: none !important;
+	opacity: 0;
+	z-index: 1;
+}
+
+.monaco-list-rows {
+	background: transparent !important;
+}
+
+.monaco-list-row:hover,
+.monaco-list-row.focused {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+	background: none !important;
+}
+
+.monaco-workbench .part.statusbar {
+	font-size: 11px !important;
+	padding: 0 !important;
+	opacity: 0.8 !important;
+}
+
+.statusbar-item.left:has(.codicon-git-branch) {
+	order: 3 !important;
+	color: #89b4fabb !important;
+	font-weight: 600 !important;
+}
+
+#vscodevim\.vim\.primary {
+	order: 2 !important;
+	background: #89b4fa !important;
+	color: #23272e !important;
+	font-weight: 600 !important;
+}
+
+#vscodevim\.vim\.primary[aria-label="-- INSERT --"] {
+	background: #a6e3a1 !important;
+}
+
+#vscodevim\.vim\.primary[aria-label="-- VISUAL --"] {
+	background: #cba6f7 !important;
+}
+
+#vscodevim\.vim\.primary[aria-label="-- VISUAL LINE --"] {
+	background: #cba6f7 !important;
+}
+
+#vscodevim\.vim\.primary[aria-label="-- VISUAL BLOCK --"] {
+	background: #cba6f7 !important;
+}
+
+#vscodevim\.vim\.primary[aria-label="-- VIM: DISABLED --"] {
+	background: #f38ba8 !important;
+}
+
+#vscodevim\.vim\.showcmd[aria-label="<ExtensionDisable>"] {
+	display: none !important;
+}
+
+.statusbar-item.right.__CUSTOM_CSS_JS_INDICATOR_CLS {
+	display: none !important;
+}
+
+#status\.editor\.selection {
+	color: #89b4fabb !important;
+	font-weight: 600 !important;
+}
+
+#status\.editor\.mode {
+	color: #89b4fabb !important;
+	font-weight: 600 !important;
+}
+
+#vscodevim\.vim\.showcmd {
+	font-weight: 600 !important;
+}
+
+.letterpress {
+	display: none !important;
+}
