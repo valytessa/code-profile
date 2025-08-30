@@ -1,0 +1,12 @@
+.tab.selected.tab-border-bottom > .tab-border-bottom-container {
+	display: none !important;
+}
+
+.tab.selected.tab-border-top > .tab-border-top-container {
+	display: none !important;
+}
+
+.part.editor * {
+	box-shadow: none !important;
+	border-bottom: none !important;
+}
